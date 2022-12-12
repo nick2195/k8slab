@@ -1,6 +1,6 @@
 ## K8s lab using kind
 
-**Output from creating a kind cluster
+** Output from creating a kind cluster
 
 kind create cluster --name k8s --config k8s.yaml
 Creating cluster "k8s" ...
@@ -25,7 +25,7 @@ k8s-worker2         Ready    <none>          32s   v1.25.3
 
 
 
-***Output after deployment 
+** Output after deployment 
 kubectl get pods
 NAME                                    READY   STATUS    RESTARTS   AGE
 zone-spread-topology-64d7595646-6v6rc   1/1     Running   0          87s
